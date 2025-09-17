@@ -55,14 +55,14 @@ For Experiment 1, the table below summarizes the hyper-parameters per method, th
 method  | hyper-parameters | values tried | default | optimal
 ------------- | ------------- | ------------- | ------------- | ------------- 
 ER | $\lambda$ | $(0.1, 1.0)$ | $0.1$ $[16.00]$ | $0.1$ $[16.00]$
-AOS (ours) | $\tau$ | $(1.0, 2.0, 3.0, 5.0)$ | $1.0$ $[16.11]$ | $1.0$ $[16.11]$
+IHR (ours) | $\tau$ | $(1.0, 2.0, 3.0, 5.0)$ | $1.0$ $[16.11]$ | $1.0$ $[16.11]$
 
 For Experiment 2, the table below summarizes the hyper-parameters per method, the tested values, and the default and optimal (both with Average WER between brackets):
 
 method  | hyper-parameters | values tried | default | optimal
 ------------- | ------------- | ------------- | ------------- | ------------- 
 ER | $\lambda$ | $(0.1, 1.0)$ | $0.1$ $[4.54]$ | $1.0$ $[4.44]$
-AOS (ours) | $\tau$ | $(1.0, 2.0, 3.0, 5.0)$ | $1.0$ $[6.30]$ | $3.0$ $[4.69]$
+IHR (ours) | $\tau$ | $(1.0, 2.0, 3.0, 5.0)$ | $1.0$ $[6.30]$ | $3.0$ $[4.69]$
 
 Note, moreover, that full results regarding the hyper-parameters can be found in `results/results.xlsx`
 
